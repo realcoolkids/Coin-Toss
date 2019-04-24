@@ -3,6 +3,13 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    background-color: #337a7d;
+}
+
+main {
+    background-color: white;
+    padding: 10px 10px;
+    margin: 0 100px;
 }
 
 p {
@@ -25,3 +32,10 @@ header {
 .loss {
     color: maroon;
 }
+
+/* Change margin dimensions when screen is greater than 800px */
+@media only screen and (min-width: 800px) {
+    main {
+        margin: 0 300px;
+    }
+} 
