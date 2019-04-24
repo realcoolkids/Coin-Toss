@@ -29,11 +29,15 @@ submitButton.addEventListener('click', () => {
         messageValue.textContent = 'You Won!';
         wins++;
         winsCount.textContent = 'Wins: ' + wins; 
+        messageValue.classList.remove('loss');
+        messageValue.classList.add('win');
     }
     else {
         messageValue.textContent = 'You Lose!';
         losses++;
         lossesCount.textContent = 'Losses: ' + losses; 
+        messageValue.classList.remove('win');
+        messageValue.classList.add('loss');
     }
    
 });

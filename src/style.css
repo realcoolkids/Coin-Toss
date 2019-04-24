@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Josefin+Sans');
+
 body {
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
 }
 
 p {
     text-align: center;
+}
+
+header {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+}
+
+.scoreboard span {
+    margin: 0 10px;
+}
+
+.win {
+    color: green;
+}
+
+.loss {
+    color: maroon;
 }
