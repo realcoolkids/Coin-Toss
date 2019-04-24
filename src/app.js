@@ -7,6 +7,4 @@ submitButton.addEventListener('click', () => {
     const flip = coinToss(randomNum);
     const image = 'assets/' + flip + '.jpg';
     donkeySide.src = image;
-
-    console.log(donkeySide.src);
 });
